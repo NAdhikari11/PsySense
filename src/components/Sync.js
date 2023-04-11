@@ -10,7 +10,7 @@ const Sync = () => {
                     <div className='h-48 w-80 bg-no-repeat bg-cover font-quicksand rounded-lg' style={{ backgroundImage: `url(${stats})` }}>
                     
                     </div>
-                    <div className='font-2xl font-semibold text-white'>
+                    <div className='text-lg font-semibold text-white'>
                         <h2 className='pb-2'>Sync And Anaylse Data</h2>
                         <div className='flex w-full'>
                             <button className='bg-moss text-white rounded-full w-24 h-8 mx-auto'>Sync</button>

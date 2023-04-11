@@ -12,7 +12,7 @@ const Find = () => {
   return (
     <div className='w-full h-96 bg-rouge font-quicksand font-semibold' id = "find">
             <div className='flex justify-around w-5/6 h-4/5 rounded-lg bg-white mx-auto items-center translate-y-9'>
-                <div className=''>
+                <div className='text-lg font-semibold'>
                     <h2>Find A Therapist Close To You</h2>
                     <div className='flex w-full'>
                       <button className='bg-moss text-white rounded-full w-24 h-8 mx-auto' onClick={navigateToFind}>Find</button>

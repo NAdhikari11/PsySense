@@ -1,13 +1,15 @@
 import React from 'react'
 import therapist4 from '../img/therapist4.jpeg';
-import Navbard from '../components/Navbard';
+import Navbar2 from '../components/Navbar2';
 import Footer from '../components/Footer';
 
 const Schedule = () => {
+
+  
   return (
     <div className='w-full h-screen bg-no-repeat bg-cover font-quicksand' style={{ backgroundImage: `url(${therapist4})` }} >
       <div style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)' }} className='w-full h-screen text-black'>
-        <Navbard />
+        <Navbar2 />
          <div className='w-full h-screen pt-20 pl-32'>
           <div className='h-2/3 w-1/2 px-12 py-8 bg-white rounded-lg' style={{ backgroundColor: 'rgba(255, 255, 255, 0.8)' }}>
           <div className="border-b border-gray-900/10 pb-4 w-4/5 pl-12 pt-4">

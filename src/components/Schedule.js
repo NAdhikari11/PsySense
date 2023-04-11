@@ -14,10 +14,10 @@ const Schedule = () => {
                     <div className='h-48 w-80 bg-no-repeat bg-cover font-quicksand rounded-lg' style={{ backgroundImage: `url(${appointment})` }}>
                         
                     </div>
-                    <div className='font-2xl font-semibold text-white'>
+                    <div className='text-lg font-semibold text-white'>
                         <h2 className='pb-2'>Schedule Your Appointment Now</h2>
                         <div className='flex w-full'>
-                            <button className='bg-moss text-white rounded-full w-24 h-8 mx-auto' onClick={navigateToSchedule}>Schedule</button>
+                            <button className='bg-moss text-white rounded-full w-28 h-8 mx-auto' onClick={navigateToSchedule}>Schedule</button>
                         </div>
                     </div>
                 </div>

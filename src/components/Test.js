@@ -16,13 +16,13 @@ const Test = () => {
 
 
   return (
-    <div className='w-full h-auto bg-no-repeat bg-cover' style={{backgroundImage: `url(${working})`}}>
+    <div className='w-full h-auto bg-no-repeat bg-cover' style={{backgroundImage: `url(${working})`}} id="dass21">
         <div style={{backgroundColor: 'rgba(0, 0, 0, 0.3)'}} className='w-full h-96'>
         <div className='flex justify-around w-5/6 h-4/5 rounded-lg bg-slate-700 mx-auto items-center font-quicksand translate-y-9'>
                 <div className='h-48 w-80 bg-no-repeat bg-cover font-quicksand rounded-lg' style={{ backgroundImage: `url(${working})` }}>
                     
                 </div>
-                <div className='font-2xl font-semibold text-white'>
+                <div className='text-lg font-semibold text-white'>
                     <h2 className='pb-2'>See previous test results</h2>
                     <div className='flex w-full'>
                       <button className='bg-moss text-white rounded-full w-28 h-8 mx-auto' onClick={navigateToResult}>See Result</button>

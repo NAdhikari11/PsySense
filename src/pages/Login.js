@@ -1,6 +1,7 @@
 import React from 'react'
 import { Navigate, useNavigate } from 'react-router-dom'
 import { LockClosedIcon } from '@heroicons/react/20/solid'
+import Logo from '../img/Logo.png'
 
 const Login = () => {
 
@@ -15,12 +16,12 @@ const Login = () => {
   } 
   return (
     <div className='bg-moon w-full h-screen font-quicksand'>
-      <div className='flex justify-center pt-28'>
+      <div className='flex justify-center pt-20'>
         <div className='block max-w-sm rounded-lg bg-white p-6 shadow-lg'>
           <div className="flex min-h-full items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
             <div className="w-full max-w-md space-y-8">
               <div>
-                <img alt='logo'></img>
+                <img src={Logo} alt='logo'></img>
                 <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
                   Sign in to your account
                 </h2>

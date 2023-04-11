@@ -2,6 +2,7 @@ import React from 'react';
 import Therapist from '../img/Therapist.jpeg';
 import Navbar from './Navbar';
 import { Navigate, useNavigate } from 'react-router-dom';
+import Logo from '../img/Logo.png'
 
 const Psysense = () => {
     const navigate = useNavigate();
@@ -18,9 +19,11 @@ const Psysense = () => {
                 <Navbar />
                 <div style={{ backgroundColor: `rgba(0, 0, 0, 0.3)` }} className='w-full h-full text-center text-black flex justify-center'>
                     <div className='w-4/5 h-3/4 mt-6 font-quicksand' style={{ backgroundColor: 'rgba(255, 255, 255, 0.3)' }}>
-                        <p className=''>PsySense<br></br>
-                            Where stress makes sense
-                        </p>
+                    <div className=''>
+                            <img src = {Logo} alt = 'PsySense'></img>
+                                <p>Where stress makes sense
+                            </p>
+                        </div>
                         <div className='block rounded-lg h-72 w-80 bg-white p-6 shadow-lg ml-[580px] mt-16'>
                             <div className='flex flex-col align center justify-center items-center pt-8'>
                                 <p>Already a member?</p>

@@ -12,7 +12,9 @@ const Sync = () => {
                     </div>
                     <div className='font-2xl font-semibold text-white'>
                         <h2 className='pb-2'>Sync And Anaylse Data</h2>
-                        <button className='bg-moss text-white rounded-full w-24 h-8 mx-auto'>Sync</button>
+                        <div className='flex w-full'>
+                            <button className='bg-moss text-white rounded-full w-24 h-8 mx-auto'>Sync</button>
+                        </div>
                     </div>
                 </div>
             </div>    

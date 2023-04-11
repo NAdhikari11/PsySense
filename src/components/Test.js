@@ -1,4 +1,4 @@
-import { Navigate, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import React from 'react'
 import working from '../img/working.jpg'
 
@@ -24,9 +24,14 @@ const Test = () => {
                 </div>
                 <div className='font-2xl font-semibold text-white'>
                     <h2 className='pb-2'>See previous test results</h2>
-                    <button className='bg-moss text-white rounded-full w-28 h-8 mx-auto' onClick={navigateToResult}>See Result</button>
+                    <div className='flex w-full'>
+                      <button className='bg-moss text-white rounded-full w-28 h-8 mx-auto' onClick={navigateToResult}>See Result</button>
+                    </div>
                     <h2 className='pb-2 pt-4'>Retake DASS-21 test</h2>
-                    <button className='bg-moss text-white rounded-full w-24 h-8 mx-auto' onClick={navigateToDass}>Take Test</button>
+                    <div className='flex w-full'>
+                      <button className='bg-moss text-white rounded-full w-24 h-8 mx-auto' onClick={navigateToDass}>Take Test</button>
+                    </div>
+                
                 </div>
             </div>
         </div>

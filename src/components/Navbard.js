@@ -26,7 +26,7 @@ const Navbard = () => {
           <a href='#know'>Know More</a>
         </div>
         <div className='flex w-25 items-center justify-center mr-3 hover:duration-300 hover:bg-cold hover:text-stone-700 font-semibold'>
-            <UserCircleIcon className="h-8 w-8 hover:text-stone-700" aria-hidden="true" />
+          <UserCircleIcon className="h-8 w-8 hover:text-stone-700" aria-hidden="true" />
         </div>
       </div>
     </div>

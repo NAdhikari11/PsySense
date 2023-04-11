@@ -9,7 +9,7 @@ import Footer from '../components/Footer'
 
 const Dashboard = () => {
   return (
-    <div className='bg-eggshell'>
+    <div className='bg-eggshell scroll-smooth' id="dash">
         <Profile />
         <Schedule />
         <Find />

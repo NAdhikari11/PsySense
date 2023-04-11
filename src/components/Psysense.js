@@ -1,7 +1,7 @@
 import React from 'react';
 import Therapist from '../img/Therapist.jpeg';
 import Navbar from './Navbar';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Logo from '../img/Logo.png'
 
 const Psysense = () => {

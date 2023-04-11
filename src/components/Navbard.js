@@ -27,7 +27,7 @@ const Navbard = () => {
             <a href='#sync'>Sync Data</a>
           </div>
           <div className='flex w-25 items-center justify-center mr-3 hover:bg-cold hover:duration-300 hover:text-stone-700 font-semibold'>
-            <a href='/#stats'>Stats</a>
+            <a href='#stats'>Stats</a>
           </div>
           <div className='flex w-25 items-center justify-center mr-3 hover:bg-cold hover:duration-300 hover:text-stone-700 font-semibold'>
             <a href='#dass21'>DASS-21</a>

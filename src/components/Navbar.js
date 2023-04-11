@@ -18,7 +18,7 @@ const Navbar = () => {
        </div>
        <div className='flex mr-5'>
         <div className='flex w-25 items-center justify-center mr-3 hover:duration-300 hover:bg-cold hover:text-stone-700 text-white font-semibold' onClick={navigateToLogin}>
-          <a href='#'>Schedule Appointment</a>
+          <a href=''>Schedule Appointment</a>
         </div>
         <div className='flex w-25 items-center justify-center mr-3 hover:duration-300 hover:bg-cold hover:text-stone-700 text-white font-semibold' onClick={navigateToLogin}>
           <a href='#'>Find a Therapist</a>

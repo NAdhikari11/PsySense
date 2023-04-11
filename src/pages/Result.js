@@ -1,10 +1,12 @@
 import React from 'react'
 import Dass from '../img/Dass.png';
-
+import Navbar3 from '../components/Navbar3'
 
 const Result = () => {
   return (
-    <div className='bg-rouge h-auto py-20'>
+    <div className='bg-rouge'>
+      <Navbar3 />
+      <div className='h-auto py-20'>
             <div className='flex-justify-center h-4/5 w-3/4 bg-white mx-auto rounded-lg p-24 font-quicksand font-medium'>
                 <h1 className='text-xl font-semibold border-b pb-2'>Results of the DASS-21 Test</h1>
                 <p className='py-4'>The Depression, Anxiety and Stress Scale - 21 Items (DASS-21) is a set of three self-report scales designed to measure the emotional states of depression, anxiety and stress.</p>
@@ -19,6 +21,8 @@ const Result = () => {
                 <p className='py-4 font-semibold text-xl'>Your Result is: </p>
             </div>
         </div>
+    </div>
+    
   )
 }
 

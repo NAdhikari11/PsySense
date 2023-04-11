@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbard from '../components/Navbard'
+import Navbar3 from '../components/Navbar3'
 import Footer from '../components/Footer'
 
 const FindTherapist = () => {
   return (
     <div>
       <div className='bg-moon w-full h-screen'>
-        <Navbard />
+        <Navbar3 />
       </div>
       <Footer />
     </div>

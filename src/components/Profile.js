@@ -10,14 +10,14 @@ const Profile = () => {
             <p>Hi</p>
             <p>Welcome To PsySense!</p>
         </div>
-        <div className='text-lg w-1/2 p-8'>
+        {/*<div className='text-lg w-1/2 p-8'>
             <ul>
                 <li>Age: </li>
                 <li>Email-ID: </li>
                 <li>Phone Number: </li>
                 <li>Emergency Contacts: </li>
             </ul>
-        </div>
+        </div>*/}
         </div>
         
     </div>
